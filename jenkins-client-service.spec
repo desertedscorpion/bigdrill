@@ -25,7 +25,7 @@ This programs installs the jenkins client service.
 %install
 rm -rf ${RPM_BUILD_ROOT}
 mkdir --parents ${RPM_BUILD_ROOT}/usr/lib/systemd/system
-cp jenkins-client.service ${RPM_BUILD_ROOT}/usr/lib/systemd
+cp jenkins-client.service ${RPM_BUILD_ROOT}/usr/lib/systemd/system
 
 
 %clean
