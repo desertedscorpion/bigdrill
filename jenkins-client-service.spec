@@ -9,6 +9,7 @@ URL:            git@github.com:desertedscorpion/lostlocomotive.git
 Source:         %{name}-%{version}.tar.gz
 Prefix:         %{_prefix}
 BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}-root-%(%{__id_u} -n)
+Requires:       systemd
 
 %define debug_package %{nil}
 
